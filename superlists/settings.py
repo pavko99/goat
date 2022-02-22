@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 if 'DJANGO_DEBUG_FALSE' in os.environ:
     DEBUG = False
     SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
-    ALLOWED_HOSTS = [os.environ['SITENAME']]
+    ALLOWED_HOSTS = [os.environ['superlists-staging.cheapskate123.xyz']]
 else:
     DEBUG = True
     SECRET_KEY = 'django-insecure-o+4wtu=d9z(#!r9q)e_)imf*bz$$j2mw55c-!%)+!@#$ncgf3r'
