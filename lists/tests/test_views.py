@@ -2,7 +2,6 @@ from pydoc import text
 from urllib import request
 from django.test import TestCase
 from django.urls import resolve
-from webob import second
 from lists.views import home_page, view_list
 from django.http import HttpRequest
 from lists.models import Item, List
