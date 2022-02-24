@@ -6,7 +6,6 @@ from lists.models import Item, List
 from django.core.exceptions import ValidationError
 
 def home_page(request):
-  # THIS IS A TEST FART
   return render(request, 'lists/home.html')
 
 
